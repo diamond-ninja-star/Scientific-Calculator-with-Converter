@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="ABOUT"/>
+    <Property name="name" type="java.lang.String" value="About_Fame" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,99,0,0,2,111"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="aboutScrollPane" alignment="0" pref="587" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="aboutMenuButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="aboutExitButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Component id="aboutScrollPane" pref="264" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="aboutMenuButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="aboutExitButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="aboutMenuButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Kristen ITC" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MENU"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMenuButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="aboutExitButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Kristen ITC" size="15" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutExitButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="aboutScrollPane">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="aboutTextArea">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="AHSANULLAH UNIVERSITY OF SCIENCE AND TECNOLOGY&#xa;---------------------------------------------------------------------&#xa;COURSE TITLE  : SOFTWARE DEVELOPMENT LAB - II ( JAVA )&#xa;COURSE NO     : CSE 2106    |||||           YEAR   : 2ND&#xa;DEPARTMENT  : CSE             \u005c\u005c\u005c\u005c     SEMESTER : 1ST&#xa;GROUP               : 2                  ////      SECTION : B2&#xa;--------------------------------------------------------------------&#xa;SUMITTED BY :&#xa;MD . ZAFIR ALVI                                         |||    ID : 14.02.04.084&#xa;MD. SADIQ MAHBUB FAISAL SHISHIR  |||    ID : 14.02.04.087&#xa;MD. TOUHIDUL ISLAM                             |||    ID : 14.02.04.088&#xa;&#xa;COURSE TEACHER : MD. TAWSEEF ALAM&#xa;----------------------------------------------------------------------&#xa;THIS SOFTWARE WAS MADE AS A PROJECT OF OUR SOFTWARE &#xa;DEVELOPMENT LAB OF JAVA . WE HAVE USED &quot;BEANSHELL&quot;&#xa;LIBRARY TO HANDLE NORMAL SCIENTIFIC OPERATIONS AND&#xa;&quot;FLANAGAN&quot; FOR HANDLING COMPLEX OPERATIONS.&#xa;ALTHOUGH AT THE BEGINNING OF THE PROJECT WE PLANNED TO ADD MANY FEATURES &#xa;IN OUR CALCULATOR , WE HAVE TO WORK AGAINST LIMITED&#xa;TIME  AND THERE WE HAVE STOPPED . AS A BEGINNER OF GUI&#xa;PROGRAMMING , IT TOOK LONG TIME TO DO MANY EASY &#xa;IMPLEMENTATIONS . IN SPITE OF WORKING UNDER PRESSURE&#xa;,WE ENJOYED A LOT AS IT WAS THE FIRST TIME , WE WERE &#xa;EXCITED AS WE ARE MAKING A SOFTWARE ( THOUGH IT &#xa;MIGHTBE A SIMPLE PROJECT AND THERE MAYBE SOME SMALL&#xa;DRAWBACKS ) .OUR TEACHER WAS VERY HELPFUL .&#xa;&#xa;WE WILL MISS THE TIME THAT WE HAD SPENT .&#xa;&#xa;HOPE WE CAN DO BETTER IN FUTURE . &#xa;PRAY FOR OUR SUCCESS .&#xa;-------------------------11/2/2016,11:06 PM----------------------" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
